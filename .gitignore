@@ -105,3 +105,6 @@ dist
 
 # VSCODE Ignore
 .vscode
+
+# local build
+build
