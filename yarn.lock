@@ -2239,10 +2239,10 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
 
-pikaponents@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/pikaponents/-/pikaponents-1.0.1.tgz#9eba0871348ee8ace745f60ecef5e51501d517b1"
-  integrity sha512-mvxuKOrgtXVVJaex3/4HY7PGREZ85hR/TCRL0BK/SBYxLj3zVaexo0hHaoL4vdZKd5QgKYhXo7HqLHMvZ1MODA==
+pikaponents@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/pikaponents/-/pikaponents-1.0.5.tgz#961f71da9d236fe4c5b1c9c4215487b76040420b"
+  integrity sha512-tbZB/W1gspv3UDvdR/9WKuetMlrWPG84SXQ+UvVPQqH8nF8oFOqxOWc3tllsHuRNTWPWL1L6zlokPfNITGiriA==
   dependencies:
     "@material-ui/core" "^4.12.3"
     "@material-ui/icons" "^4.11.2"

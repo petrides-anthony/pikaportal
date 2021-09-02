@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Button, Header } from 'pikaponents';
+import { Button, Header, MediaCard } from 'pikaponents';
 
 // import "./app.css";
 require("./app.css")
@@ -32,6 +32,45 @@ export const App = (props: HelloWorldProps) => (
       label="Click for more..."
       size="small"
       backgroundColor="black"
-      onClick={() => alert("hi")}></Button>
+      onClick={() => alert("hi")}>
+    </Button>
+    <div className='mediaCardRow'>
+      <MediaCard
+        title="title"
+        image='https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80'
+        imageAltText='alt text'
+        buttonLabel='click for more...'
+        buttonLink='https://www.google.co.uk'
+        >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </MediaCard>
+      <MediaCard
+        title="title"
+        image='https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80'
+        imageAltText='alt text'
+        buttonLabel='click for more...'
+        buttonLink='https://www.google.co.uk'
+        >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </MediaCard>
+      <MediaCard
+        title="title"
+        image='https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80'
+        imageAltText='alt text'
+        buttonLabel='click for more...'
+        buttonLink='https://www.google.co.uk'
+        >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </MediaCard>
+      <MediaCard
+        title="title"
+        image='https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80'
+        imageAltText='alt text'
+        buttonLabel='click for more...'
+        buttonLink='https://www.google.co.uk'
+        >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </MediaCard>
+      </div>
   </div>
 );
